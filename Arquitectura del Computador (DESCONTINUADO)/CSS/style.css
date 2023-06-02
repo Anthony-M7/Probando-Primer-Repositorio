@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box;
+  font-size: 1.2rem;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.header {
+  width: 70%;
+  margin: 0 auto;
+  border: medium solid #0007;
+  padding: 1rem;
+}
+
+.header h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.header nav {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+
+.header nav a {
+  color: #0007;
+  /* border: thin solid #0007; */
+  padding: 0.4rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  /* flex-basis: 10%; */
+  text-decoration: none;
+}
+
+.div {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  border: thin solid #0007;
+  border-radius: 0.3rem;
+  padding: 0.2rem;
+}
+
+.div a {
+  color: #0007;
+  font-size: 1.4qrem;
+}
+
+.title {
+  width: 80%;
+  margin: 1rem auto 1rem;
+  padding: 1rem;
+  color: orange;
+}
+
+.concepts {
+  width: 80%;
+  margin: 0 auto 0;
+  padding: 0 0.8rem;
+  border-left: medium solid #0007;
+  border-right: medium solid #0007;
+}
+
+.concepts p {
+  text-align: justify;
+}
+
+.concepts p b {
+  color: orangered;
+}
+
+.concepts ul li b {
+  color: orangered;
+}
+
+*::selection {
+  background-color: orange;
+  color: white;
+}
+a {
+  color: white;
+}
